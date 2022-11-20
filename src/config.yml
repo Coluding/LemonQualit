@@ -1,1 +1,12 @@
-image_path: '../../../../Data'
+image_path: '../../../Data'
+
+model_to_use: 'vgg19'
+
+vgg19:
+  classifier:
+#    - in_features_1: 25088
+#    - out_features_1: 4096
+#    - 'relu'
+#    -  dropout_1 : 0.2
+#    - in_features_2: 4096
+#    - out_features_2: 3
