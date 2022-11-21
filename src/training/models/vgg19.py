@@ -146,5 +146,5 @@ class VGG19(nn.Module):
 
 if __name__ == "__main__":
     model = VGG19()
-    model.fit(5, 0.001)
+    model.fit(1, 0.001)
     model.save_model()
